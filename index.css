@@ -1,0 +1,59 @@
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    position:fixed;
+    width: 100%;
+    background-color: beige;
+    z-index: 1000;
+}
+
+.navBar li {
+    flex: 1; 
+    text-align: center; 
+}
+
+.profileImg{
+    float: left;
+    margin-left: 130px;
+    margin-top: 130px;
+}
+
+body{
+    margin:0;
+}
+
+.profile{
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 210px;
+}
+
+.profileInfo{
+    padding-left: 700px;
+}
+
+.profileInfo h3{
+    font-weight: normal;
+}
+
+.aboutMe h1{
+    text-align: center;
+}
+
+.aboutMe h3{
+    font-weight: normal;
+}
+
+.contacts{
+    text-align:center;
+}
+
+.contacts h3{
+    font-weight: normal;
+}
