@@ -8,12 +8,29 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <ul class="navBar">
-            <li><a href="#homePage">Home</a></li>
-            <li><a href="#aboutmePage">About Me</a></li>
-            <li><a href="#contactsPage">Contacts</a></li>
-            <li><a href="loginPage.html">Log In</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top navbarwidth">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html#homePage">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html#aboutmePage">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html#contactsPage">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="loginPage.html">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <section>
             <br>
             <br>
@@ -93,8 +110,8 @@
                 <a href="https://github.com/danielKW8">danielKW8</a><br>
                 Counter:<br>
                 <p id="number">0</p>
-                <button onClick = "add()" type="button">+1</button>
-                <button onClick = "subtract()" type="button">-1</button>
+                <button onClick="add()" type="button" class="btn btn-success">+1</button>
+                <button onClick="subtract()" type="button" class="btn btn-danger">-1</button>
                 <br>
                 <br>
                 <br>
